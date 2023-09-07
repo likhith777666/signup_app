@@ -1,0 +1,144 @@
+body{
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+
+}
+
+.input-box {
+  border-color: rgb(185, 12, 104);
+}
+
+.input-box {
+  margin-bottom: 40px; /* Add space below each input */
+  border-radius: 10px;
+  width: 270px;
+  height: 40px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  top: 43%;
+  left: 630px; /* Adjust the distance from the left side */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.icon2 {
+  position: absolute;
+  top: 32%;
+  left: 630px; /* Adjust the distance from the left side */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.input-container {
+  position: relative;
+  width: 300px; /* Set the width of the input container */
+}
+
+
+.custom-placeholder {
+  position: absolute;
+  top: 31%; /* Adjust the vertical position */
+  left: 680px; /* Adjust the horizontal position */
+  color: #9b9191; /* Placeholder text color */
+  pointer-events: none; /* Make label non-interactive */
+ 
+}
+
+.custom-placeholder2{
+  position: absolute;
+  top: 42%; /* Adjust the vertical position */
+  left: 670px; /* Adjust the horizontal position */
+  color: #888; /* Placeholder text color */
+  pointer-events: none; /* Make label non-interactive */
+ 
+}
+
+
+#password {
+padding-right: 300px; /* Add space for the toggle icon */
+}
+
+.toggle-password {
+position: absolute;
+top: 43%;
+left: 850px; /* Adjust the distance from the right side */
+transform: translateY(-50%);
+cursor: pointer;
+}
+
+
+/* styles.css */
+.custom-text {
+position: absolute;
+top: 210px; /* Adjust the vertical position in pixels or other units */
+left: 200px; /* Adjust the horizontal position in pixels or other units */
+font-size: 18px;
+color: #333;
+background-color: #f2f2f2;
+padding: 10px;
+border: 1px solid #ddd;
+}
+
+
+
+.input-box1{
+
+      
+  background-color: #ed1111; /* Set the background color to blue */
+  color: #fff; /* Set the text color to white */
+  border-radius: 10px; /* Remove the default button border */
+  padding: 10px 20px; /* Add padding to the button for spacing */
+  font-size: 16px; /* Set the font size */
+  outline: 4px solid rgba(220, 41, 71, 0.2);
+  width: 270px;
+  height: 40px;
+
+
+
+}
+
+.two{
+
+
+position: absolute;
+
+left: 675px;
+top:150px;
+}
+.images1{
+position:absolute;
+top: 100px;
+width: 180px;
+left: 620px;
+}
+
+
+.textE{
+
+position:absolute;
+top: 10px;
+left:650px ;
+background: linear-gradient(90deg, #51043e 50%, #6d1031 30%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+
+}
+
+/* Remove underline from all links */
+a {
+text-decoration: none;
+}
